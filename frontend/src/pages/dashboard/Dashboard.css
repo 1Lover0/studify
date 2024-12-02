@@ -1,0 +1,10 @@
+.dashboard{
+    margin-left: 250px;
+}
+.dash{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+}
+.dash .bg-lights{
+    background-color: rgb(237, 237, 237);
+}

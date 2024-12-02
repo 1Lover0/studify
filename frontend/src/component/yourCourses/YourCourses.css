@@ -1,0 +1,63 @@
+.your-courses{
+    width: 100%;
+    padding: 5px 20px;
+}
+.your-course-title,.your-course-box-desc-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.your-course-title-heading{
+    font-size: 22px;
+    font-weight: 600;
+}
+.your-course-title-all{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(25, 69, 122);
+}
+
+.your-course-all{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.your-course-box{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: row;
+}
+.your-course-box-image{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px;
+}
+.your-course-box-desc{
+    margin-left: 20px;
+}
+.your-course-box-desc-heading{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.your-course-box-desc-author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.your-course-box-desc-author-img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: red;
+}
+.your-course-box-desc-author-name{
+    margin-left: 10px;
+    font-weight: 500;
+}
+.your-course-box-desc-info{
+    margin-top: 14px;
+}

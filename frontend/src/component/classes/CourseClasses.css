@@ -1,0 +1,88 @@
+
+.course-class{
+    padding: 20px 20px 0;
+}
+.user-profile-name{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: -10px;
+    color: blue;
+}
+.search-course{
+    width: 100%;
+    margin: 10px 0 30px;
+    position: relative;
+}
+.search-course input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 40px;
+}
+.search-course i{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.course-class-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.course-class-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 20px;
+}
+.course-class-sub{
+    background-color: red;
+    border-radius: 20px;
+    position: relative;
+}
+.course-class-sub span{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.course-class-sub-img{
+    height: 150px;
+    overflow: hidden;
+    border-radius: 20px;
+    object-fit: contain;
+    background-color: blue;
+}
+.course-class-sub-img img{
+    width: 100%;
+}
+
+
+.course-class-sub-box{
+    padding: 20px;
+}
+
+
+.progress{
+    height: 10px;
+}
+.progress-bar{
+    width: 70%;
+    background-color: green;
+}
+
+
+.course-class-sub-detail{
+    display: flex;
+    flex-direction: row;
+}
+.course-class-sub-detail-level{
+    margin-left: 20px;
+}

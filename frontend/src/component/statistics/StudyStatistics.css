@@ -1,0 +1,49 @@
+.statistics{
+    /* padding: 30px; */
+}
+
+
+.statistics-r1,.statistics-r2-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.statistics-r1{
+    margin-bottom: 20px;
+}
+
+.statistics-day{
+    font-size: 20px;
+    font-weight: 600;
+}
+.statistics-date{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.statistics-user-info{
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+}
+.user-profile-notification,.user-profile-sec{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-profile-notification i{
+    font-size: 20px;
+}
+.user-profile-sec i{
+    font-size: 30px;
+}
+
+
+.statistics-r2-main{
+    height: 300px;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+}
