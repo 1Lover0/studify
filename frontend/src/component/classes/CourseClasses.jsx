@@ -13,8 +13,8 @@ export const CourseClasses = () => {
             <div className="course-class-header mb-2">
                 <div className="h5">Continues Classes</div>
                 <div className="course-class-header-link">
-                    <i className='fa-solid fa-angle-left'></i>
-                    <i className='fa-solid fa-angle-right'></i>
+                    <i className='fa fa-angle-left'></i>
+                    <i className='fa fa-angle-right'></i>
                 </div>
             </div>
             <div className="course-class-main">
